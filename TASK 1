@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>HTML Project</title>
+</head>
+
+<body>
+    <!--Header(start)-->
+    <table id="header" border="0" 
+           width="100%" cellpadding="0" 
+           cellspacing="0" bgcolor="#53a8e5">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" 
+                       cellspacing="0" width="90%" 
+                       align="center">
+                    <tr>
+                        <td>
+                            &nbsp;
+
+                        </td>
+
+                        <td>
+                            <font face="Comic sans MS" size="6">
+                                <b>VIDHI'sLAYOUT</b>
+                            </font>
+                        </td>
+
+                        <td width="15%">
+                            &nbsp;
+                        </td>
+
+                        <td>
+                            <a href="#home" 
+                               style="text-decoration:none">
+                                <font face="Verdana" 
+                                      size="5" color=black>
+                                    Home
+                                </font>
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td>
+                            <a href="#about" 
+                               style="text-decoration:none">
+                                <font face="Verdana" 
+                                      size="5" color=black>
+                                    About
+                                </font>
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td>
+                            <a href="#projects" 
+                               style="text-decoration:none">
+                                <font face="Verdana" 
+                                      size="5" color=black>
+                                    Projects
+                                </font>
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td>
+                            <a href="#achievements" 
+                               style="text-decoration:none">
+                                <font face="Verdana" 
+                                      size="5" color=black>
+                                    Achievements
+                                </font>
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td>
+                            <a href="#contact" 
+                               style="text-decoration:none">
+                                <font face="Verdana" 
+                                      size="5" color=black>
+                                    Contact
+                                </font>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Header(end)-->
+
+    <!--Home(start)-->
+    <table id="home" border="1" width="100%" 
+        cellpadding="20" cellspacing="0" bgcolor="black">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" 
+                    cellspacing="0" width="90%" align="center">
+                    <tr>
+                        <td align="center" valign="middle">
+                            <h3>
+                                <font face="Times New Roman" 
+                                    size="6" color="#ffffff">
+                                    Hi VIDHI!
+                                </font>
+                            </h3>
+
+                            <h2>
+                                <font face="Verdana" size="6"
+                                    color="#4CAF50">
+                                    <!-- Freelance Programmer -->
+                                </font>
+                            </h2>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Home(end)-->
+
+
+    <!--About(start)-->
+    <table id="about" border="0" width="100%" 
+        cellpadding="0" cellspacing="0" bgcolor="black">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" 
+                    cellspacing="0" width="80%" align="center">
+                    <tr>
+                        <td height="180" align="center" 
+                            valign="middle" colspan="2">
+                            <font face="Verdana" size="7" 
+                                color="#53a8e5">
+                                About Me
+                            </font>
+                            <hr color="#53a8e5" width="90">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td width="40%">
+                            <img src="data:image/png;base64,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">
+                        </td>
+
+                        <td width="60%">
+                            <font face="Verdana" size="4" 
+                                color="white">
+                                Thanks for your interest, here 
+                                is a quick story of me and this 
+                                website.
+                                <hr color="black">
+                                Vidhi Kohli B.tech student of DIT University
+                                and founder of VIDHI'sPROGRAMMING .she 
+                                loves to solve programming problems 
+                                in most efficient ways. Apart from 
+                                VIDHI'sPROGRAMMING,she has worked with 
+                                one or two platform for good experience.
+                                <hr color="black">
+
+                                I do my work mainly in C-Language, 
+                                C++ and JAVA. C++ and Data Structure
+                                and Algorithm are my stronger section.
+                                Besides these I know Web Development,
+                                LINUX and database as well.
+                                <hr color="black">
+
+                                This website is basically one of my 
+                                Web Development project which is 
+                                built using HTML only.
+                                Here one can also find ideas for 
+                                projects in different languages.
+
+                                Thanks again for reading this, 
+                                because of people like you, it 
+                                exists and prospers!
+                                <hr color="black">
+                                Cheers,
+                                <br>
+                                <b>VIDHI'sPROGRAMMING.</b>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+                <hr color="black">
+                <hr color="black">
+                <hr color="black">
+            </td>
+        </tr>
+    </table>
+    <!--About(end)-->
+
+
+    <!--Projects(start)-->
+    <table id="projects" border="0" width="100%" 
+        cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" 
+                    cellspacing="0" width="80%" align="center">
+                    <tr>
+                        <td height="180" align="center" 
+                            valign="middle" colspan="2">
+                            <font face="Verdana" size="7" 
+                                color="black">
+                                Projects
+                            </font>
+                            <hr color="black" width="90">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td height="10">
+                            <font face="Times New Roman" 
+                                size="5" color="black">
+                                <ul>
+                                    <li>
+                                        BMI Calculator
+                                        <a href="#" 
+                                           style="text-decoration:none">
+                                            &nbsp; ➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        Calculator
+                                        <a href="#" 
+                                           style="text-decoration:none"
+                                            color="#c2c0c3">
+                                            &nbsp; ➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        Calendar
+                                        <a href="#" 
+                                           style="text-decoration:none">
+                                            &nbsp; ➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        ChatBot
+                                        <a href="#" 
+                                           style="text-decoration:none">
+                                            &nbsp; ➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        Contact Saver
+                                        <a href="#" 
+                                           style="text-decoration:none">
+                                            &nbsp; ➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        Daily Quiz
+                                        <a href="#" 
+                                           style="text-decoration:none">
+                                            &nbsp; ➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        Emplyoyee Record System
+                                        <a href="#" 
+                                           style="text-decoration:none">
+                                            &nbsp; ➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        Guess the Number-Game
+                                        <a href="#" 
+                                           style="text-decoration:none">
+                                            &nbsp; ➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        Random Password Generator
+                                        <a href="#" 
+                                           style="text-decoration:none">
+                                            &nbsp;➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        Stone Paper Scissor
+                                        <a href="#" 
+                                           style="text-decoration:none">
+                                            &nbsp;➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        Tic Tac Toe
+                                        <a href="#" 
+                                           style="text-decoration:none">
+                                            &nbsp;➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        Tic Tac Toe(GUI)
+                                        <a href="#" 
+                                           style="text-decoration:none">
+                                            &nbsp;➲
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        ToDo App
+                                        <a href="#" 
+                                           style="text-decoration:none">
+                                            &nbsp;➲ </a>
+                                    </li>
+
+                                    <li>
+                                        <hr color="#c2c0c3">
+                                        Travel Management System
+                                        <a href="#" style=
+                                            "text-decoration:none">&nbsp; ➲
+                                        </a>
+                                    </li>
+                                </ul>
+                                <hr color="#c2c0c3">
+                                <hr color="#c2c0c3">
+                                <hr color="#c2c0c3">
+                                <hr color="#c2c0c3">
+                            </font>
+                        </td>
+
+                        <td width="45%">
+                            <img src="data:image/jpeg;base64,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" 
+                                 alt="Project" width="75%">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Projects(end)-->
+
+    <!--Achievement(start)-->
+    <table id="achievements" border="0" width="100%" 
+        cellpadding="0" cellspacing="0" bgcolor="black">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" 
+                    cellspacing="0" width="80%" align="center">
+                    <tr>
+                        <td height="180" align="center" valign="middle">
+                            <font face="Verdana" size="7" color="#53a8e5">
+                                Achievements
+                                <hr color="#53a8e5" width="100">
+                            </font>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <font face="Verdana" size="4" color="white">
+                                <ul>
+                                    <li>
+                                        <b>Intern at VIDHI'sPROGRAMMING.</b>
+                                        <ul>
+                                            <li>
+                                                December,2020 - Present.
+                                            </li>
+                                            <li>
+                                                Write technical articles 
+                                                on programming related topics.
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <hr color="black">
+                                        <hr color="black">
+                                        <hr color="black">
+                                        <b>Microsoft Learn Student Ambassador.</b>
+                                        <ul>
+                                            <li>
+                                                August,2020 - Present.
+                                            </li>
+                                            <li>
+                                                Conducted events and workshops on
+                                                different technologies.
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li>
+                                        <hr color="black">
+                                        <hr color="black">
+                                        <hr color="black">
+                                        <b>Mentored HackTX.</b>
+                                        <ul>
+                                            <li>
+                                                October,2020.
+                                            </li>
+                                            <li>
+                                                Selected from Microsoft as Student
+                                                ambassador where I mentored students
+                                                in their projects.
+                                            </li>
+                                            <hr color="black">
+                                            <hr color="black">
+                                            <hr color="black">
+                                            <hr color="black">
+                                            <hr color="black">
+                                        </ul>
+                                    </li>
+
+                                </ul>
+
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Achievement(end)-->
+
+
+    <!--Contact(start)-->
+    <table id="contact" border="0" width="100%" 
+        cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" 
+                    cellspacing="0" width="80%" align="center">
+                    <tr>
+                        <td height="180" align="center" 
+                            valign="middle" colspan="2">
+                            <font face="Verdana" size="7" 
+                                color="black">
+                                Contact
+                            </font>
+                            <hr color="black" width="90">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="center" valign="top">
+                            <table border="0" width="50%" cellpadding="15" 
+                                cellspacing="0" align="center" bgcolor="black">
+                                <tr>
+                                    <td width="30%">
+                                        <hr color="black">
+                                        <font face="Verdana" size="4" 
+                                            color="#ffffff">
+                                            Name
+                                        </font>
+                                    </td>
+                                    <td width="70%">
+                                        <font face="Verdana" size="4" 
+                                            color="#ffffff">
+                                            <input type="text" size="40">
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="30%">
+                                        <font face="Verdana" size="4" 
+                                            color="#ffffff">
+                                            Email
+                                        </font>
+                                    </td>
+                                    <td width="70%">
+                                        <font face="Verdana" size="4" 
+                                            color="#ffffff">
+                                            <input type="email" size="40">
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="30%">
+                                        <font face="Verdana" size="4" 
+                                            color="#ffffff">
+                                            Number
+                                        </font>
+                                    </td>
+                                    <td width="70%">
+                                        <font face="Verdana" size="4" 
+                                            color="#ffffff">
+                                            <input type="number" size="12">
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="30%">
+                                        <font face="Verdana" size="4" 
+                                            color="#ffffff">
+                                            Message
+                                        </font>
+                                    </td>
+                                    <td width="70%">
+                                        <font face="Verdana" size="4" 
+                                            color="#ffffff">
+                                            <textarea rows="5" 
+                                                cols="37">
+                                            </textarea>
+                                        </font>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td width="30%">
+                                        &nbsp;
+                                    </td>
+                                    <td width="70%">
+                                        <button type="Submit">
+                                            <font face="Verdana" 
+                                                size="4" color="black">
+                                                <b>Submit</b>
+                                            </font>
+                                        </button>
+                                        <hr color="black">
+                                        <hr color="black">
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            &nbsp;
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Contact(end)-->
+
+
+    <!--Footer1(start)-->
+    <table id="footer" border="0" width="100%" 
+        cellpadding="0" cellspacing="0" bgcolor="#53a8e5">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" 
+                    cellspacing="0" width="90%" align="center">
+                    <tr>
+                        <td width="13%" valign="top">
+                            <b>LinkedIn</b>
+                            <a href="#" style="text-decoration:none">
+                                ➲
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td width="13%" valign="top">
+                            <b>GitHub</b>
+                            <a href="#" style="text-decoration:none">
+                                ➲ 
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td width="13%" valign="top">
+                            <b>HackerRank</b>
+                            <a href="#" style="text-decoration:none">
+                                ➲
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td width="13%" valign="top">
+                            <b>GeeksforGeeks</b>
+                            <a href="#" style="text-decoration:none">
+                                ➲
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td width="13%" valign="top">
+                            <b>Twitter</b>
+                            <a href="#" style="text-decoration:none">
+                                ➲
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td width="13%" valign="top">
+                            <b>Instagram</b>
+                            <a href="#" style="text-decoration:none">
+                                ➲
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td width="13%" valign="top">
+                            <b>Email</b>
+                            <a href="#" style="text-decoration:none">
+                                ➲
+                            </a>
+                        </td>
+
+                        <td>
+                            |
+                        </td>
+
+                        <td width="13%" valign="top">
+                            <b>Website</b>
+                            <a href="#" style="text-decoration:none">
+                                ➲
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Footer1(end)-->
+
+
+    <!--Footer2(start)-->
+    <table id="footer" border="0" width="100%" 
+        cellpadding="0" cellspacing="0" bgcolor="black">
+        <tr>
+            <td>
+                <table border="0" cellpadding="15" 
+                    cellspacing="0" width="90%" align="center">
+                    <tr>
+                        <td width="80%" valign="top">
+                            <font face="Verdana" 
+                                color="#53a8e5" size="5">
+                                ©Copyright 2050 by nobody. 
+                                All rights reserved.
+                            </font>
+                        </td>
+
+                        <td width="10%">
+                            <font face="arial" color="black" size="5">
+                                <a href="#header" style="text-decoration:none">
+                                    <font face="Verdana" color="#53a8e5" size="6">
+                                        <b>TOP&nbsp;☝</b>
+                                    </font>
+                                </a>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--Footer2(end)-->
+
+</body>
+
+</html>
+
